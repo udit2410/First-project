@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+     font-family: 'Lato', sans-serif;
+
+}
+.Outer-box{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to top left,beige,beige);
+
+}
+.inner-box{
+    width: 300px;
+     position: relative;
+    margin: 0 40%;
+   
+    top: 20%;
+    padding: 40px;
+    background-color: aqua;
+    border: 2px solid blue;
+    border-radius: 10%;
+    box-shadow: 2px 2px 5px black;
+}
+.Signup{
+    text-align: center;
+    font-size: 1.5rem;
+}
+.signup-body p{
+    margin: 4px;
+}
+.signup-body p label{
+    font-size: 1.3rem;
+    display: block;
+
+}
+.signup-body p input{
+    width: 100%;
+    font-size: 1.1rem;
+}
+.signup-body p input[type="button"]{
+    background-color: rgb(133, 133, 214);
+    color: rgb(253, 253, 253);
+    cursor: pointer;
+}
